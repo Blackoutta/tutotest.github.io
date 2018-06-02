@@ -2,9 +2,25 @@ footer {
     text-align: center;
     color: white;
     padding: 1em 0;
+    border-top: 1px dashed fade-out(white, .4);
 }
 
 .wrap {
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 133px);
+}
+
+.biography {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        padding: 0 1em;
+        width: 94;
+        height: 100px;
+    }
+    .biotext {
+        text-align: left;
+        padding: 0 1em;
+    }
 }
 
