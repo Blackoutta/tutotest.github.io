@@ -90,21 +90,24 @@ body {
   justify-content: center;
   color: white;
   padding: 1em;
-  cursor: default; }
+  cursor: default;
+  border-top: 4px dotted white; }
   .col h1 {
     font-size: 4em;
     margin: 0; }
   .col p {
     padding: 1em 0;
     font-size: 1.2em; }
-  .col ul li {
-    padding: .5em 0;
-    list-style: square;
-    font-size: 1.1em; }
+  .col ul {
+    padding-bottom: 1.5em; }
+    .col ul li {
+      padding: .5em 0;
+      list-style: square;
+      font-size: 1.1em; }
   .col .button {
-    margin: 3em 0; }
+    margin: 2em 0; }
     .col .button a {
-      padding: 1em 6em;
+      padding: 1em 2em;
       border-radius: 10px;
       background-color: white;
       border: 0px;
@@ -133,7 +136,9 @@ body {
     justify-content: space-around;
     align-items: baseline; }
     .index_container button {
-      padding: 1em 4em; } }
+      padding: 1em 4em; }
+    .index_container .col {
+      border-top: 0; } }
 body#web_page {
   background-color: #414141; }
   body#web_page .jumbotron {
