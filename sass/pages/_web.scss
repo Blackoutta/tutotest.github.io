@@ -1,0 +1,126 @@
+@import "../helpers/variables";
+
+body#web_page {
+    background-color: #414141;
+    .jumbotron {
+        background-color: #9CBF56;
+    }
+    
+}
+
+@import "../layout/header";
+@import "../layout/footer";
+@import "../layout/jumbotron";
+
+//@for $i from 1 to $total {
+//    .course_menu li:nth-child(#{$i}) {
+//        border-radius: 5px;
+//        margin: auto;
+//        border: 3px solid fade-out(black, 1);
+//        &:hover {
+//            background-color: adjust-hue(firebrick, $i * $total);
+//            border: 3px solid white;
+//        }
+//    }
+//}
+
+h4 {
+    color: #9CBF56;
+}
+
+.web_container {
+    margin-top: 3em;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    hr {
+        margin: 1em 0;
+    }
+    h3 {
+        margin: 1em 0;
+    }
+    
+    .course_menu {
+        width: 90%;
+        margin: 0;
+        margin: auto;
+        li {
+            text-align: left;
+            font-size: 1.1em;
+            list-style: decimal;
+            width: 80%;
+            margin: auto;
+
+
+            a {
+                color: white;
+                display: block;
+                padding: 1.5em 0;
+                border: 2px solid fade-out(white, 1);
+                
+                &:hover {
+                    background-color: #9CBF56;
+                    border: 2px solid white;
+                    transition: .3s;
+                    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+                    border-radius: 5px;
+                }
+                &::before {
+                    content: "   ";
+                    display: inline-block;
+                    width: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:690px) {
+    .web_container {
+        width: 90%;
+        margin: auto;
+        .course_menu {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            .grouping {
+                padding: 1em;
+                border: 1px dotted white;
+                flex-basis: 30%;
+            }
+            .groupOne {
+                &::before {
+                    content:"I";
+                    font-size: 2em;
+                }
+            }
+            .groupTwo {
+                &::before {
+                    content:"II";
+                    font-size: 2em;
+                }
+            }    
+            
+            .groupThree {
+                &::before {
+                    content:"III";
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+    
+    
+    //Logo Tag
+        .logo_container {
+        position: relative;
+        h4 {
+            margin:0;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+header {
+    background-color: #414141;
+    text-align: center;
+    padding: 1em 0;
+
+    a {
+        color: white;
+        display: block;
+    }
+    .main-logo {
+        margin: 0;
+        padding-bottom: .5em;
+        a {
+            color: white;
+            &:hover {
+                color: #A58FEE; 
+            }
+        }
+    }
+    .main-nav {
+        li {
+            a {
+                padding: 1em 0;
+                &:hover {
+                    background-color: firebrick;
+                    transition: .3s;
+                }
+            }
+        }
+    }
+}
+    
+
+
+//Media Query Middle Screen
+@media screen and (min-width:690px) {
+    .main-header {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        position: relative;
+        z-index: 1000;
+        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+        .main-logo {
+            padding: 0;
+            a {
+                padding: .5em 0;
+            }
+        }
+        .main-nav {
+            display: flex;
+            li {
+                font-size: 1.1em;
+                a {
+                    padding: 2em 2em;
+                }
+            }
+        }
+    }
+}
+
+
+
