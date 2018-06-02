@@ -92,8 +92,19 @@ footer {
     height: 400px;
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
-body {
+#github_address a {
+  color: #FFA720; }
+  #github_address a:hover {
+    text-decoration: underline; }
+  #github_address a::before {
+    content: ">>>  "; }
+  #github_address a::after {
+    content: "  <<<"; }
+
+body#homepage {
   background-color: #414141; }
+  body#homepage h4 {
+    color: #B097FF; }
 
 .col {
   margin: 2em 0;
@@ -241,6 +252,15 @@ footer {
     height: 400px;
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
+#github_address a {
+  color: #FFA720; }
+  #github_address a:hover {
+    text-decoration: underline; }
+  #github_address a::before {
+    content: ">>>  "; }
+  #github_address a::after {
+    content: "  <<<"; }
+
 h4 {
   color: #9CBF56; }
 
@@ -393,6 +413,15 @@ footer {
     height: 400px;
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
+#github_address a {
+  color: #FFA720; }
+  #github_address a:hover {
+    text-decoration: underline; }
+  #github_address a::before {
+    content: ">>>  "; }
+  #github_address a::after {
+    content: "  <<<"; }
+
 body#ps_page {
   background-color: #414141; }
   body#ps_page .jumbotron {
@@ -415,7 +444,8 @@ body#ps_page {
   .gallery img {
     width: 100%;
     margin: auto;
-    padding-bottom: 1em; }
+    border: 2px solid black;
+    margin-bottom: 1em; }
   .gallery hr {
     border: 0.5px solid white; }
   .gallery figure {
@@ -447,14 +477,21 @@ body#ps_page {
     .ps_container .gallery figure figcaption {
       width: 70%;
       margin: auto; } }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .ps_container .gallery {
-    width: 80%; }
-    .ps_container .gallery img {
-      width: 50%; }
-    .ps_container .gallery figure figcaption {
-      width: 50%;
-      margin: auto; } }
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-basis: 500px; }
+    .ps_container .gallery figure {
+      margin: 0;
+      flex-grow: 1; }
+      .ps_container .gallery figure img {
+        width: 500px; }
+      .ps_container .gallery figure figcaption {
+        width: 500px; } }
 span {
   color: #FFA720; }
 

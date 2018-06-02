@@ -32,3 +32,18 @@
     
     
 }
+
+#github_address {
+    a {
+        color: #FFA720;
+        &:hover {
+            text-decoration: underline;
+        }
+        &::before {
+            content: ">>>  ";
+        }
+        &::after {
+            content: "  <<<";
+        }
+    }
+}

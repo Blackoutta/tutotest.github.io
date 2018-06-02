@@ -30,7 +30,8 @@ body#ps_page {
     img {
         width: 100%;
         margin: auto;
-        padding-bottom: 1em;
+        border: 2px solid black;
+        margin-bottom: 1em;
     }
     hr {
         border: 0.5px solid white;
@@ -83,19 +84,27 @@ body#ps_page {
     }
 }
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1200px) {
     .ps_container {
         .gallery {
-            width: 80%;
-            img {
-                width: 50%;
-            }
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items:baseline;
+            flex-basis: 500px;
             figure {
+                margin: 0;
+                flex-grow: 1;
+                img {
+                    width: 500px;
+                }
                 figcaption {
-                    width: 50%;
-                    margin: auto;
+                    width: 500px;
                 }
             }
+
+            
         }
     }
 }

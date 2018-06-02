@@ -2,8 +2,11 @@
 @import "../layout/footer";
 @import "../layout/jumbotron";
 
-body {
+body#homepage {
     background-color: #414141;
+    h4 {
+        color: #B097FF;
+    }
 }
 
 .col {
