@@ -40,9 +40,6 @@ header {
         background-color: firebrick;
         transition: .3s; }
 
-h4 {
-  padding-bottom: .5em; }
-
 @media screen and (min-width: 690px) {
   .main-header {
     display: flex;
@@ -66,7 +63,7 @@ h4 {
           padding: 2em 2em; }
 
   h4 {
-    padding-bottom: 0; } }
+    padding-bottom: .5em; } }
 footer {
   text-align: center;
   color: white;
@@ -220,9 +217,6 @@ header {
         background-color: firebrick;
         transition: .3s; }
 
-h4 {
-  padding-bottom: .5em; }
-
 @media screen and (min-width: 690px) {
   .main-header {
     display: flex;
@@ -246,7 +240,7 @@ h4 {
           padding: 2em 2em; }
 
   h4 {
-    padding-bottom: 0; } }
+    padding-bottom: .5em; } }
 footer {
   text-align: center;
   color: white;
@@ -401,9 +395,6 @@ header {
         background-color: firebrick;
         transition: .3s; }
 
-h4 {
-  padding-bottom: .5em; }
-
 @media screen and (min-width: 690px) {
   .main-header {
     display: flex;
@@ -427,7 +418,7 @@ h4 {
           padding: 2em 2em; }
 
   h4 {
-    padding-bottom: 0; } }
+    padding-bottom: .5em; } }
 footer {
   text-align: center;
   color: white;

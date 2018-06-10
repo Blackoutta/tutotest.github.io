@@ -43,9 +43,6 @@ header {
     }
 }
     
-h4 {
-    padding-bottom: .5em;
-}
 
 //Media Query Middle Screen
 @media screen and (min-width:690px) {
@@ -76,7 +73,7 @@ h4 {
         }
     }
     h4 {
-        padding-bottom: 0;
+        padding-bottom: .5em;
     }
 }
 
