@@ -1,0 +1,14 @@
+button {
+    padding: 1em;
+    border: none;
+    color: white;
+    border-radius: 45px;
+    &:hover {
+        color: black;
+        cursor: pointer;
+    }
+}
+
+#scrollTop {
+    background-color: cornflowerblue;
+}

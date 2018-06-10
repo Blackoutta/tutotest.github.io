@@ -498,4 +498,16 @@ span {
 span.web_span {
   color: #9cbf56; }
 
+button {
+  padding: 1em;
+  border: none;
+  color: white;
+  border-radius: 45px; }
+  button:hover {
+    color: black;
+    cursor: pointer; }
+
+#scrollTop {
+  background-color: cornflowerblue; }
+
 /*# sourceMappingURL=main.css.map */
