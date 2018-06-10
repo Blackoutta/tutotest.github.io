@@ -28,6 +28,9 @@ header {
       background-color: firebrick;
       transition: .3s; }
 
+h4 {
+  padding-bottom: .5em; }
+
 @media screen and (min-width: 690px) {
   .main-header {
     display: flex;
@@ -46,7 +49,10 @@ header {
       .main-header .main-nav li {
         font-size: 1.1em; }
         .main-header .main-nav li a {
-          padding: 2em 2em; } }
+          padding: 2em 2em; }
+
+  h4 {
+    padding-bottom: 0; } }
 footer {
   text-align: center;
   color: white;
@@ -92,13 +98,13 @@ footer {
     height: 400px;
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
-#github_address a {
+.announcement a {
   color: #FFA720; }
-  #github_address a:hover {
+  .announcement a:hover {
     text-decoration: underline; }
-  #github_address a::before {
+  .announcement a::before {
     content: ">>>  "; }
-  #github_address a::after {
+  .announcement a::after {
     content: "  <<<"; }
 
 body#homepage {
@@ -188,6 +194,9 @@ header {
       background-color: firebrick;
       transition: .3s; }
 
+h4 {
+  padding-bottom: .5em; }
+
 @media screen and (min-width: 690px) {
   .main-header {
     display: flex;
@@ -206,7 +215,10 @@ header {
       .main-header .main-nav li {
         font-size: 1.1em; }
         .main-header .main-nav li a {
-          padding: 2em 2em; } }
+          padding: 2em 2em; }
+
+  h4 {
+    padding-bottom: 0; } }
 footer {
   text-align: center;
   color: white;
@@ -252,13 +264,13 @@ footer {
     height: 400px;
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
-#github_address a {
+.announcement a {
   color: #FFA720; }
-  #github_address a:hover {
+  .announcement a:hover {
     text-decoration: underline; }
-  #github_address a::before {
+  .announcement a::before {
     content: ">>>  "; }
-  #github_address a::after {
+  .announcement a::after {
     content: "  <<<"; }
 
 h4 {
@@ -349,6 +361,9 @@ header {
       background-color: firebrick;
       transition: .3s; }
 
+h4 {
+  padding-bottom: .5em; }
+
 @media screen and (min-width: 690px) {
   .main-header {
     display: flex;
@@ -367,7 +382,10 @@ header {
       .main-header .main-nav li {
         font-size: 1.1em; }
         .main-header .main-nav li a {
-          padding: 2em 2em; } }
+          padding: 2em 2em; }
+
+  h4 {
+    padding-bottom: 0; } }
 footer {
   text-align: center;
   color: white;
@@ -413,13 +431,13 @@ footer {
     height: 400px;
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
-#github_address a {
+.announcement a {
   color: #FFA720; }
-  #github_address a:hover {
+  .announcement a:hover {
     text-decoration: underline; }
-  #github_address a::before {
+  .announcement a::before {
     content: ">>>  "; }
-  #github_address a::after {
+  .announcement a::after {
     content: "  <<<"; }
 
 body#ps_page {
@@ -494,6 +512,9 @@ body#ps_page {
         width: 500px; } }
 span {
   color: #FFA720; }
+
+span.red {
+  color: #ff5656; }
 
 span.web_span {
   color: #9cbf56; }
