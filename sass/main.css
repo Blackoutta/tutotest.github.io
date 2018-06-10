@@ -20,6 +20,7 @@ header {
     header .logo_container .foldButton {
       position: absolute;
       left: 2%;
+      bottom: 0;
       width: 36px;
       height: 36px;
       cursor: pointer; }
@@ -194,6 +195,7 @@ header {
     header .logo_container .foldButton {
       position: absolute;
       left: 2%;
+      bottom: 0;
       width: 36px;
       height: 36px;
       cursor: pointer; }
@@ -369,6 +371,7 @@ header {
     header .logo_container .foldButton {
       position: absolute;
       left: 2%;
+      bottom: 0;
       width: 36px;
       height: 36px;
       cursor: pointer; }
