@@ -57,7 +57,9 @@ h4 {
       .main-header .main-logo a {
         padding: .5em 0; }
     .main-header .main-nav {
-      display: flex; }
+      display: flex;
+      border: none;
+      margin-top: 0; }
       .main-header .main-nav li {
         font-size: 1.1em; }
         .main-header .main-nav li a {
@@ -235,7 +237,9 @@ h4 {
       .main-header .main-logo a {
         padding: .5em 0; }
     .main-header .main-nav {
-      display: flex; }
+      display: flex;
+      border: none;
+      margin-top: 0; }
       .main-header .main-nav li {
         font-size: 1.1em; }
         .main-header .main-nav li a {
@@ -414,7 +418,9 @@ h4 {
       .main-header .main-logo a {
         padding: .5em 0; }
     .main-header .main-nav {
-      display: flex; }
+      display: flex;
+      border: none;
+      margin-top: 0; }
       .main-header .main-nav li {
         font-size: 1.1em; }
         .main-header .main-nav li a {
