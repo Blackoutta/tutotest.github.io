@@ -15,13 +15,21 @@ header {
   header a {
     color: white;
     display: block; }
-  header .main-logo {
-    margin: 0;
-    padding-bottom: .5em; }
-    header .main-logo a {
-      color: white; }
-      header .main-logo a:hover {
-        color: #A58FEE; }
+  header .logo_container {
+    position: relative; }
+    header .logo_container .foldButton {
+      position: absolute;
+      left: 2%;
+      width: 36px;
+      height: 36px;
+      cursor: pointer; }
+    header .logo_container .main-logo {
+      margin: 0;
+      padding-bottom: .5em; }
+      header .logo_container .main-logo a {
+        color: white; }
+        header .logo_container .main-logo a:hover {
+          color: #A58FEE; }
   header .main-nav li a {
     padding: 1em 0; }
     header .main-nav li a:hover {
@@ -181,13 +189,21 @@ header {
   header a {
     color: white;
     display: block; }
-  header .main-logo {
-    margin: 0;
-    padding-bottom: .5em; }
-    header .main-logo a {
-      color: white; }
-      header .main-logo a:hover {
-        color: #A58FEE; }
+  header .logo_container {
+    position: relative; }
+    header .logo_container .foldButton {
+      position: absolute;
+      left: 2%;
+      width: 36px;
+      height: 36px;
+      cursor: pointer; }
+    header .logo_container .main-logo {
+      margin: 0;
+      padding-bottom: .5em; }
+      header .logo_container .main-logo a {
+        color: white; }
+        header .logo_container .main-logo a:hover {
+          color: #A58FEE; }
   header .main-nav li a {
     padding: 1em 0; }
     header .main-nav li a:hover {
@@ -348,13 +364,21 @@ header {
   header a {
     color: white;
     display: block; }
-  header .main-logo {
-    margin: 0;
-    padding-bottom: .5em; }
-    header .main-logo a {
-      color: white; }
-      header .main-logo a:hover {
-        color: #A58FEE; }
+  header .logo_container {
+    position: relative; }
+    header .logo_container .foldButton {
+      position: absolute;
+      left: 2%;
+      width: 36px;
+      height: 36px;
+      cursor: pointer; }
+    header .logo_container .main-logo {
+      margin: 0;
+      padding-bottom: .5em; }
+      header .logo_container .main-logo a {
+        color: white; }
+        header .logo_container .main-logo a:hover {
+          color: #A58FEE; }
   header .main-nav li a {
     padding: 1em 0; }
     header .main-nav li a:hover {

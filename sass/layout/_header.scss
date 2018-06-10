@@ -2,21 +2,31 @@ header {
     background-color: #414141;
     text-align: center;
     padding: 1em 0;
-
     a {
         color: white;
         display: block;
     }
-    .main-logo {
-        margin: 0;
-        padding-bottom: .5em;
-        a {
-            color: white;
-            &:hover {
-                color: #A58FEE; 
-            }
+    .logo_container {
+        position: relative;
+        .foldButton {
+            position: absolute;
+            left: 2%;
+            width: 36px;
+            height: 36px;
+            cursor: pointer;
         }
+        .main-logo {
+            margin: 0;
+            padding-bottom: .5em;
+            a {
+                color: white;
+                &:hover {
+                    color: #A58FEE; 
+                }
+            }
+        }      
     }
+
     .main-nav {
         li {
             a {
