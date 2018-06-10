@@ -529,6 +529,7 @@ button {
     cursor: pointer; }
 
 #scrollTop {
+  margin-top: 1em;
   background-color: cornflowerblue; }
 
 /*# sourceMappingURL=main.css.map */
