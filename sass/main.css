@@ -21,8 +21,8 @@ header {
       position: absolute;
       left: 2%;
       bottom: 0;
-      width: 36px;
-      height: 36px;
+      width: 32px;
+      height: 32px;
       cursor: pointer; }
     header .logo_container .main-logo {
       margin: 0;
@@ -31,11 +31,14 @@ header {
         color: white; }
         header .logo_container .main-logo a:hover {
           color: #A58FEE; }
-  header .main-nav li a {
-    padding: 1em 0; }
-    header .main-nav li a:hover {
-      background-color: firebrick;
-      transition: .3s; }
+  header .main-nav {
+    border-top: 1px dashed white;
+    margin-top: 1.4em; }
+    header .main-nav li a {
+      padding: 1em 0; }
+      header .main-nav li a:hover {
+        background-color: firebrick;
+        transition: .3s; }
 
 h4 {
   padding-bottom: .5em; }
@@ -196,8 +199,8 @@ header {
       position: absolute;
       left: 2%;
       bottom: 0;
-      width: 36px;
-      height: 36px;
+      width: 32px;
+      height: 32px;
       cursor: pointer; }
     header .logo_container .main-logo {
       margin: 0;
@@ -206,11 +209,14 @@ header {
         color: white; }
         header .logo_container .main-logo a:hover {
           color: #A58FEE; }
-  header .main-nav li a {
-    padding: 1em 0; }
-    header .main-nav li a:hover {
-      background-color: firebrick;
-      transition: .3s; }
+  header .main-nav {
+    border-top: 1px dashed white;
+    margin-top: 1.4em; }
+    header .main-nav li a {
+      padding: 1em 0; }
+      header .main-nav li a:hover {
+        background-color: firebrick;
+        transition: .3s; }
 
 h4 {
   padding-bottom: .5em; }
@@ -372,8 +378,8 @@ header {
       position: absolute;
       left: 2%;
       bottom: 0;
-      width: 36px;
-      height: 36px;
+      width: 32px;
+      height: 32px;
       cursor: pointer; }
     header .logo_container .main-logo {
       margin: 0;
@@ -382,11 +388,14 @@ header {
         color: white; }
         header .logo_container .main-logo a:hover {
           color: #A58FEE; }
-  header .main-nav li a {
-    padding: 1em 0; }
-    header .main-nav li a:hover {
-      background-color: firebrick;
-      transition: .3s; }
+  header .main-nav {
+    border-top: 1px dashed white;
+    margin-top: 1.4em; }
+    header .main-nav li a {
+      padding: 1em 0; }
+      header .main-nav li a:hover {
+        background-color: firebrick;
+        transition: .3s; }
 
 h4 {
   padding-bottom: .5em; }

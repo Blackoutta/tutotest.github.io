@@ -12,8 +12,8 @@ header {
             position: absolute;
             left: 2%;
             bottom: 0;
-            width: 36px;
-            height: 36px;
+            width: 32px;
+            height: 32px;
             cursor: pointer;
         }
         .main-logo {
@@ -29,6 +29,8 @@ header {
     }
 
     .main-nav {
+        border-top: 1px dashed white;
+        margin-top: 1.4em;
         li {
             a {
                 padding: 1em 0;
