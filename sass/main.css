@@ -26,7 +26,9 @@ header {
       cursor: pointer; }
     header .logo_container .main-logo {
       margin: 0;
-      padding-bottom: .5em; }
+      padding-bottom: 1em;
+      margin: auto;
+      font-size: 1.6em; }
       header .logo_container .main-logo a {
         color: white; }
         header .logo_container .main-logo a:hover {
@@ -49,10 +51,10 @@ header {
     position: relative;
     z-index: 1000;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
-    .main-header .main-logo {
-      padding: 0; }
-      .main-header .main-logo a {
-        padding: .5em 0; }
+    .main-header .main-logo a {
+      padding: .5em 0;
+      padding-bottom: 0;
+      font-size: 1.2em; }
     .main-header .main-nav {
       display: flex;
       border: none;
@@ -203,7 +205,9 @@ header {
       cursor: pointer; }
     header .logo_container .main-logo {
       margin: 0;
-      padding-bottom: .5em; }
+      padding-bottom: 1em;
+      margin: auto;
+      font-size: 1.6em; }
       header .logo_container .main-logo a {
         color: white; }
         header .logo_container .main-logo a:hover {
@@ -226,10 +230,10 @@ header {
     position: relative;
     z-index: 1000;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
-    .main-header .main-logo {
-      padding: 0; }
-      .main-header .main-logo a {
-        padding: .5em 0; }
+    .main-header .main-logo a {
+      padding: .5em 0;
+      padding-bottom: 0;
+      font-size: 1.2em; }
     .main-header .main-nav {
       display: flex;
       border: none;
@@ -381,7 +385,9 @@ header {
       cursor: pointer; }
     header .logo_container .main-logo {
       margin: 0;
-      padding-bottom: .5em; }
+      padding-bottom: 1em;
+      margin: auto;
+      font-size: 1.6em; }
       header .logo_container .main-logo a {
         color: white; }
         header .logo_container .main-logo a:hover {
@@ -404,10 +410,10 @@ header {
     position: relative;
     z-index: 1000;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
-    .main-header .main-logo {
-      padding: 0; }
-      .main-header .main-logo a {
-        padding: .5em 0; }
+    .main-header .main-logo a {
+      padding: .5em 0;
+      padding-bottom: 0;
+      font-size: 1.2em; }
     .main-header .main-nav {
       display: flex;
       border: none;

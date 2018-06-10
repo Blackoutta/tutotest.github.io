@@ -18,7 +18,9 @@ header {
         }
         .main-logo {
             margin: 0;
-            padding-bottom: .5em;
+            padding-bottom: 1em;
+            margin: auto;
+            font-size: 1.6em;
             a {
                 color: white;
                 &:hover {
@@ -55,9 +57,11 @@ header {
         z-index: 1000;
         box-shadow: 1px 1px 1px rgba(0,0,0,.5);
         .main-logo {
-            padding: 0;
+
             a {
                 padding: .5em 0;
+                padding-bottom: 0;
+                font-size: 1.2em;
             }
         }
         .main-nav {
