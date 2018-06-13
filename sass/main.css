@@ -135,7 +135,7 @@ body#homepage {
   cursor: default;
   border-top: 4px dotted white; }
   .col h1 {
-    font-size: 4em;
+    font-size: 3em;
     margin: 0; }
   .col p {
     padding: 1em 0;
@@ -163,24 +163,25 @@ body#homepage {
         text-shadow: 1px 2px 1px black; }
 
 .web_dev h1 {
-  text-shadow: 3px 4px 3px #9CBF56; }
+  color: #b2d76a; }
 
 .photoshop h1 {
-  text-shadow: 3px 4px 3px cornflowerblue; }
+  color: cornflowerblue; }
 .photoshop .button a:hover {
   background-color: cornflowerblue; }
 
 @media screen and (min-width: 690px) {
   .index_container {
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
-    justify-content: space-around;
+    justify-content: center;
     align-items: baseline; }
     .index_container button {
       padding: 1em 4em; }
     .index_container .col {
-      border-top: 0; } }
+      border-top: 0;
+      flex-basis: 45%; } }
 body#web_page {
   background-color: #414141; }
   body#web_page .jumbotron {
@@ -524,6 +525,9 @@ body#ps_page {
         color: cornflowerblue; }
 
 @media screen and (min-width: 690px) {
+  hr {
+    display: none; }
+
   .ps_container .gallery {
     width: 80%; }
     .ps_container .gallery img {

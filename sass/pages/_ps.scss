@@ -67,7 +67,9 @@ body#ps_page {
 }
     
 @media screen and (min-width:690px) {
-
+    hr {
+        display: none;
+    }
     .ps_container {
         .gallery {
             width: 80%;
