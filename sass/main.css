@@ -525,7 +525,7 @@ body#ps_page {
         color: cornflowerblue; }
 
 @media screen and (min-width: 690px) {
-  hr {
+  .gallery hr {
     display: none; }
 
   .ps_container .gallery {
