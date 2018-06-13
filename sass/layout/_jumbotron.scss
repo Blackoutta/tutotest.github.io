@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+//    text-shadow: 1px 1px 1px rgba(0,0,0,.7);
     cursor: default;
     h1, h2 {
         margin: 0;
@@ -35,7 +35,7 @@
 
 .announcement {
     a {
-        color: #FFA720;
+        color: #f9f53e;
         &:hover {
             text-decoration: underline;
         }

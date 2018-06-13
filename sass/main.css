@@ -96,7 +96,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   cursor: default; }
   .jumbotron h1, .jumbotron h2 {
     margin: 0; }
@@ -112,7 +111,7 @@ footer {
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
 .announcement a {
-  color: #FFA720; }
+  color: #f9f53e; }
   .announcement a:hover {
     text-decoration: underline; }
   .announcement a::before {
@@ -275,7 +274,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   cursor: default; }
   .jumbotron h1, .jumbotron h2 {
     margin: 0; }
@@ -291,7 +289,7 @@ footer {
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
 .announcement a {
-  color: #FFA720; }
+  color: #f9f53e; }
   .announcement a:hover {
     text-decoration: underline; }
   .announcement a::before {
@@ -455,7 +453,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   cursor: default; }
   .jumbotron h1, .jumbotron h2 {
     margin: 0; }
@@ -471,7 +468,7 @@ footer {
     font-size: 1.6em;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); } }
 .announcement a {
-  color: #FFA720; }
+  color: #f9f53e; }
   .announcement a:hover {
     text-decoration: underline; }
   .announcement a::before {
