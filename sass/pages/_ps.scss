@@ -71,8 +71,11 @@ body#ps_page {
         display: none;
     }
     .ps_container {
+        width: 90%;
+        margin: auto;
+        margin-top: 3em;
         .gallery {
-            width: 80%;
+            
             img {
                 width: 70%;
             }
@@ -89,7 +92,6 @@ body#ps_page {
 @media screen and (min-width:1200px) {
     .ps_container {
         .gallery {
-            width: 90%;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
@@ -98,6 +100,7 @@ body#ps_page {
             figure {
                 margin: 0;
                 flex-grow: 1;
+                flex-basis: 35%;
                 img {
                     width: 500px;
                 }
