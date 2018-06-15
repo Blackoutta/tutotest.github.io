@@ -1,5 +1,7 @@
 header {
-    background-color: #414141;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     padding: 1em 0;
     a {
@@ -24,7 +26,7 @@ header {
             a {
                 color: white;
                 &:hover {
-                    color: #A58FEE; 
+                    color: #8cc9e6; 
                 }
             }
         }      
@@ -37,7 +39,7 @@ header {
             a {
                 padding: 1em 0;
                 &:hover {
-                    background-color: firebrick;
+                    background-color: #8cc9e6;
                     transition: .3s;
                 }
             }

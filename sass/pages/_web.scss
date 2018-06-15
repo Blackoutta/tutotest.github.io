@@ -3,7 +3,11 @@
 body#web_page {
     background-color: #414141;
     .jumbotron {
-        background-color: #9CBF56;
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     }
     
 }

@@ -5,8 +5,19 @@
 body#homepage {
     background-color: #414141;
     h4 {
-        color: #B097FF;
+        color: #d77377;
     }
+    
+    .jumbotron {
+        background: #D66D75;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-blend-mode:soft-light;
+        background-size: contain;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+    
 }
 
 
@@ -99,11 +110,10 @@ body#homepage {
             ul {
                 text-align: center;
             }
-            
-            
         }
     }
 }
+
 
 
 

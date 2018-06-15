@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Asul");
-* {
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-family: 'Asul', sans-serif; }
-
 header {
-  background-color: #414141;
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   padding: 1em 0; }
   header a {
@@ -32,14 +29,14 @@ header {
       header .logo_container .main-logo a {
         color: white; }
         header .logo_container .main-logo a:hover {
-          color: #A58FEE; }
+          color: #8cc9e6; }
   header .main-nav {
     border-top: 1px dashed white;
     margin-top: 1.4em; }
     header .main-nav li a {
       padding: 1em 0; }
       header .main-nav li a:hover {
-        background-color: firebrick;
+        background-color: #8cc9e6;
         transition: .3s; }
 
 @media screen and (min-width: 690px) {
@@ -67,10 +64,15 @@ header {
   h4 {
     padding-bottom: .5em; } }
 footer {
+  position: relative;
   text-align: center;
   color: white;
   padding: 1em 0;
-  border-top: 1px dashed rgba(255, 255, 255, 0.6); }
+  border-top: 1px dashed rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%; }
 
 .wrap {
   min-height: calc(100vh - 133px); }
@@ -78,7 +80,8 @@ footer {
 .biography {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 3em; }
   .biography img {
     padding: 0 1em;
     width: 94;
@@ -88,7 +91,7 @@ footer {
     padding: 0 1em; }
 
 .jumbotron {
-  background-color: #544094;
+  position: relative;
   text-align: center;
   padding: 1.2em 1em;
   height: 300px;
@@ -104,6 +107,11 @@ footer {
   .jumbotron h2 {
     font-size: 1em;
     padding-top: 1em; }
+  .jumbotron .pendant {
+    width: 60px;
+    position: absolute;
+    bottom: -30px;
+    align-self: center; }
 
 @media screen and (min-width: 690px) {
   .jumbotron {
@@ -122,7 +130,18 @@ footer {
 body#homepage {
   background-color: #414141; }
   body#homepage h4 {
-    color: #B097FF; }
+    color: #d77377; }
+  body#homepage .jumbotron {
+    background: #D66D75;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E29587, #D66D75);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E29587, #D66D75);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-blend-mode: soft-light;
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat; }
 
 .col {
   margin: 2em 0;
@@ -187,10 +206,20 @@ body#homepage {
 body#web_page {
   background-color: #414141; }
   body#web_page .jumbotron {
-    background-color: #9CBF56; }
+    background: #76b852;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #8DC26F, #76b852);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #8DC26F, #76b852);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 header {
-  background-color: #414141;
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   padding: 1em 0; }
   header a {
@@ -213,14 +242,14 @@ header {
       header .logo_container .main-logo a {
         color: white; }
         header .logo_container .main-logo a:hover {
-          color: #A58FEE; }
+          color: #8cc9e6; }
   header .main-nav {
     border-top: 1px dashed white;
     margin-top: 1.4em; }
     header .main-nav li a {
       padding: 1em 0; }
       header .main-nav li a:hover {
-        background-color: firebrick;
+        background-color: #8cc9e6;
         transition: .3s; }
 
 @media screen and (min-width: 690px) {
@@ -248,10 +277,15 @@ header {
   h4 {
     padding-bottom: .5em; } }
 footer {
+  position: relative;
   text-align: center;
   color: white;
   padding: 1em 0;
-  border-top: 1px dashed rgba(255, 255, 255, 0.6); }
+  border-top: 1px dashed rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%; }
 
 .wrap {
   min-height: calc(100vh - 133px); }
@@ -259,7 +293,8 @@ footer {
 .biography {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 3em; }
   .biography img {
     padding: 0 1em;
     width: 94;
@@ -269,7 +304,7 @@ footer {
     padding: 0 1em; }
 
 .jumbotron {
-  background-color: #544094;
+  position: relative;
   text-align: center;
   padding: 1.2em 1em;
   height: 300px;
@@ -285,6 +320,11 @@ footer {
   .jumbotron h2 {
     font-size: 1em;
     padding-top: 1em; }
+  .jumbotron .pendant {
+    width: 60px;
+    position: absolute;
+    bottom: -30px;
+    align-self: center; }
 
 @media screen and (min-width: 690px) {
   .jumbotron {
@@ -370,7 +410,12 @@ h4 {
       bottom: 0;
       right: 0; } }
 header {
-  background-color: #414141;
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   padding: 1em 0; }
   header a {
@@ -393,14 +438,14 @@ header {
       header .logo_container .main-logo a {
         color: white; }
         header .logo_container .main-logo a:hover {
-          color: #A58FEE; }
+          color: #8cc9e6; }
   header .main-nav {
     border-top: 1px dashed white;
     margin-top: 1.4em; }
     header .main-nav li a {
       padding: 1em 0; }
       header .main-nav li a:hover {
-        background-color: firebrick;
+        background-color: #8cc9e6;
         transition: .3s; }
 
 @media screen and (min-width: 690px) {
@@ -428,10 +473,15 @@ header {
   h4 {
     padding-bottom: .5em; } }
 footer {
+  position: relative;
   text-align: center;
   color: white;
   padding: 1em 0;
-  border-top: 1px dashed rgba(255, 255, 255, 0.6); }
+  border-top: 1px dashed rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%; }
 
 .wrap {
   min-height: calc(100vh - 133px); }
@@ -439,7 +489,8 @@ footer {
 .biography {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 3em; }
   .biography img {
     padding: 0 1em;
     width: 94;
@@ -449,7 +500,7 @@ footer {
     padding: 0 1em; }
 
 .jumbotron {
-  background-color: #544094;
+  position: relative;
   text-align: center;
   padding: 1.2em 1em;
   height: 300px;
@@ -465,6 +516,11 @@ footer {
   .jumbotron h2 {
     font-size: 1em;
     padding-top: 1em; }
+  .jumbotron .pendant {
+    width: 60px;
+    position: absolute;
+    bottom: -30px;
+    align-self: center; }
 
 @media screen and (min-width: 690px) {
   .jumbotron {
@@ -483,7 +539,12 @@ footer {
 body#ps_page {
   background-color: #414141; }
   body#ps_page .jumbotron {
-    background-color: cornflowerblue; }
+    background: #36D1DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   body#ps_page h4 {
     color: cornflowerblue; }
 
@@ -564,17 +625,46 @@ span.red {
 span.web_span {
   color: #9cbf56; }
 
+span.white {
+  color: white; }
+
 button {
   padding: 1em;
   border: none;
   color: white;
   border-radius: 45px; }
   button:hover {
-    color: black;
+    color: #d77377;
     cursor: pointer; }
 
 #scrollTop {
-  margin-top: 1em;
-  background-color: cornflowerblue; }
+  width: 120px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: -25px; }
+  #scrollTop:hover {
+    color: #d77377;
+    cursor: pointer;
+    font-weight: 600; }
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Asul', sans-serif; }
+
+#homepage, #ps_page, #web_page {
+  background: #485563;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #29323c, #485563);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #29323c, #485563);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+h4 {
+  cursor: default; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: #544094;
+    position: relative;
     text-align: center;
     padding: 1.2em 1em;
     height: 300px;
@@ -19,6 +19,12 @@
     h2 {
         font-size: 1em;
         padding-top: 1em;
+    }
+    .pendant {
+        width: 60px;
+        position: absolute;
+        bottom: -30px;
+        align-self: center;
     }
 }
 

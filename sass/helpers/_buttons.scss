@@ -4,14 +4,22 @@ button {
     color: white;
     border-radius: 45px;
     &:hover {
-        color: black;
+        color: #d77377;
         cursor: pointer;
     }
 }
 
 #scrollTop {
-    margin-top: 1em;
-    background-color: cornflowerblue;
+    width: 120px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top:-25px;
+    &:hover {
+        color: #d77377;
+        cursor: pointer;
+        font-weight: 600;
+    }
 }
 
 
