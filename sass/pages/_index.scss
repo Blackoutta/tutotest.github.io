@@ -7,37 +7,49 @@ body#homepage {
     h4 {
         color: #d77377;
     }
-    
+
     .jumbotron {
-        background: #D66D75;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to left, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to left, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background-blend-mode:soft-light;
+        background: #D66D75;
+        /* fallback for old browsers */
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-gradient(linear, right top, left top, from(#E29587), to(#D66D75));
+        background: linear-gradient(to left, #E29587, #D66D75);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-blend-mode: soft-light;
         background-size: contain;
         background-position: center right;
         background-repeat: no-repeat;
     }
-    
+
 }
 
 
 
 .col {
     margin: 2em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     color: white;
     padding: 1em;
-    cursor:default;
+    cursor: default;
     border-top: 4px dotted white;
     text-align: center;
 
     h1 {
         font-size: 3em;
-        margin:0;
-        
+        margin: 0;
+
     }
     p {
         padding: 1em 0;
@@ -47,11 +59,11 @@ body#homepage {
         padding-bottom: 1.5em;
         li {
             padding: .5em 0;
-            list-style:square;
+            list-style: square;
         }
     }
     .button {
-            margin: 2em 0;
+        margin: 2em 0;
         a {
             padding: 1em 2em;
             border-radius: 10px;
@@ -59,10 +71,11 @@ body#homepage {
             border: 0px;
             font-weight: 600;
             font-size: 1.2em;
-            color:black;
+            color: black;
             &:hover {
                 background-color: #9CBF56;
                 color: white;
+                -webkit-transition: .2s;
                 transition: .2s;
                 text-shadow: 1px 2px 1px black;
             }
@@ -81,13 +94,13 @@ body#homepage {
     h1 {
         color: cornflowerblue;
     }
-    .button{
-        a{
-           &:hover {
-            background-color: cornflowerblue;
-            } 
+    .button {
+        a {
+            &:hover {
+                background-color: cornflowerblue;
+            }
         }
-        
+
     }
 }
 
@@ -96,16 +109,23 @@ body#homepage {
 
 @media screen and (min-width:690px) {
     .index_container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 80%;
         margin: auto;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
         align-items: baseline;
         button {
             padding: 1em 4em;
         }
         .col {
             border-top: 0;
+            -ms-flex-preferred-size: 45%;
             flex-basis: 45%;
             ul {
                 text-align: center;
@@ -113,7 +133,3 @@ body#homepage {
         }
     }
 }
-
-
-
-

@@ -1,7 +1,10 @@
 header {
-    background: #485563;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #485563;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, right top, from(#29323c), to(#485563));
+    background: linear-gradient(to right, #29323c, #485563);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     padding: 1em 0;
     a {
@@ -26,10 +29,10 @@ header {
             a {
                 color: white;
                 &:hover {
-                    color: #8cc9e6; 
+                    color: #8cc9e6;
                 }
             }
-        }      
+        }
     }
 
     .main-nav {
@@ -40,24 +43,31 @@ header {
                 padding: 1em 0;
                 &:hover {
                     background-color: #8cc9e6;
+                    -webkit-transition: .3s;
                     transition: .3s;
                 }
             }
         }
     }
 }
-    
+
 
 //Media Query Middle Screen
 @media screen and (min-width:690px) {
     .main-header {
-        display:flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
         justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         padding: 0;
         position: relative;
         z-index: 1000;
-        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+        -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
         .main-logo {
 
             a {
@@ -67,6 +77,8 @@ header {
             }
         }
         .main-nav {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             border: none;
             margin-top: 0;
@@ -82,6 +94,3 @@ header {
         padding-bottom: .5em;
     }
 }
-
-
-

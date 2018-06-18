@@ -1,7 +1,7 @@
 //**********Smooth Scroll************//
-$('#scrollTop').click(function(){
+$('#scrollTop').click(function () {
     window.scrollTo({
-        top: 0, 
+        top: 0,
         behavior: "smooth"
     })
 });
@@ -9,13 +9,16 @@ $('#scrollTop').click(function(){
 //**********Responsive Navigation Bar************//
 
 var mediaQuery690 = window.matchMedia("(min-width:690px)");
+
 function responsiveNav(mediaQuery690) {
     let ul = $('.main-nav');
     let foldButton = $('.foldButton');
     if (mediaQuery690.matches) { // If media query matches
         foldButton.hide();
         ul.show();
-        $('.foldButton').transition({ rotate: '0deg' });
+        $('.foldButton').transition({
+            rotate: '0deg'
+        });
     } else {
         foldButton.show();
         ul.hide();
@@ -26,13 +29,17 @@ mediaQuery690.addListener(responsiveNav) // Attach listener function on state ch
 
 
 //Toggle nav bar slides
-$('.foldButton').click(function(){
+$('.foldButton').click(function () {
     let ul = $('.main-nav');
-    if(ul.css('display') === 'none') {
+    if (ul.css('display') === 'none') {
         ul.slideDown();
-        $('.foldButton').transition({ rotate: '90deg' });
+        $('.foldButton').transition({
+            rotate: '90deg'
+        });
     } else {
         ul.slideUp();
-        $('.foldButton').transition({ rotate: '0deg' });
+        $('.foldButton').transition({
+            rotate: '0deg'
+        });
     }
 });

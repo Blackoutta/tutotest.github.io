@@ -3,13 +3,14 @@
 body#web_page {
     background-color: #414141;
     .jumbotron {
-    background: #76b852;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+        background: #76b852;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #8DC26F, #76b852);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #8DC26F, #76b852);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
-    
+
 }
 
 @import "../layout/header";
@@ -27,7 +28,6 @@ body#web_page {
 //        }
 //    }
 //}
-
 h4 {
     color: #9CBF56;
 }
@@ -43,7 +43,7 @@ h4 {
     h3 {
         margin: 1em 0;
     }
-    
+
     .course_menu {
         width: 90%;
         margin: 0;
@@ -61,12 +61,12 @@ h4 {
                 display: block;
                 padding: 1.5em 0;
                 border: 2px solid fade-out(white, 1);
-                
+
                 &:hover {
                     background-color: #9CBF56;
                     border: 2px solid white;
                     transition: .3s;
-                    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+                    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
                     border-radius: 5px;
                 }
                 &::before {
@@ -97,32 +97,29 @@ h4 {
             }
             .groupOne {
                 &::before {
-                    content:"I";
+                    content: "I";
                     font-size: 2em;
                 }
             }
             .groupTwo {
                 &::before {
-                    content:"II";
+                    content: "II";
                     font-size: 2em;
                 }
-            }    
-            
+            }
+
             .groupThree {
                 &::before {
-                    content:"III";
+                    content: "III";
                     font-size: 2em;
                 }
             }
         }
-    }
-    
-    
-    //Logo Tag
-        .logo_container {
+    } //Logo Tag
+    .logo_container {
         position: relative;
         h4 {
-            margin:0;
+            margin: 0;
             position: absolute;
             bottom: 0;
             right: 0;
